@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>商品頁—MYPC 電腦城</title>
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./_js/bootstrap.bundle.js"></script>
+    <link href="./css/carousel.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body {
+            background-image: url(./img/indexbg.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .shop-windows {
+            width: 150px;
+            height: 300px;
+        }
+
+        div>div>div:hover {
+            background-color: rgba(220, 220, 220, .5);
+        }
+
+        div>div>div>div>a:hover {
+            border: 2px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        aside{
+            position: absolute;
+            top:10px;
+            left: 20px;
+            bottom: 30px;
+            justify-self: start;
+            align-self: start;
+            
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-warning fixed-top bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://127.0.0.1:5501/index.html#"><img src="./img/logo.png"
+                        style="width: 200px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5501/index.html"><button
+                                    class="btn">促銷首頁</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="http://127.0.0.1:5501/computerHost.html"><button class="btn">套裝主機</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><button class="btn">筆電</button></a>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5501/evaluate.html"><button
+                                    class="btn">估價系統</button></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit" style="white-space:nowrap;">搜尋</button>
+                        <a href="http://127.0.0.1:5501/login.html"><img src="./img/person-fill.svg" class="btn"
+                                style="height: 50px;"></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="sticky-lg-top text-white px-2 bg-warning rounded border border-light"
+        style="width: 200px; height: 500px; margin-top: 125px;">
+        <h2 class="h6 pt-4 pb-3 mb-4 border-bottom text-center">品牌</h2>
+        <nav class="small" id="toc">
+            <ul class="list-unstyled">
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse"
+                        aria-expanded="false" data-bs-target="#contents-collapse" aria-controls="contents-collapse">華碩
+                        ASUS</button>
+                    <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="http://127.0.0.1:5501/computerHost_1.html">intel 9</a>
+                        </li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#images">intel 7</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#tables">intel 5</a></li>
+                    </ul>
+                </li>
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse"
+                        aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse">微星
+                        MSI</button>
+                    <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#typography">intel 9</a>
+                        </li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#images">intel 7</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#tables">intel 5</a></li>
+                    </ul>
+                </li>
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse"
+                        aria-expanded="false" data-bs-target="#components-collapse"
+                        aria-controls="components-collapse">技嘉
+                        GIGABYTE</button>
+                    <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#typography">intel 9</a>
+                        </li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#images">intel 7</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                href="#tables">intel 5</a></li>
+
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+
+
+
+        <!-- 商品條目 -->
+        <div class="container marketing mt-5">
+
+            <h1 class="d-block fw-bold text-light border-top border-bottom border-5 m-3 text-center">套裝主機</h1>
+
+
+            <!-- First -->
+            <div class="row m-3">
+                <div class="col-lg-3 text-white rounded">
+                  <img src="./img/ASUS4090_2.png" class="d-block img-fluid mx-auto mt-3" width="150" height="150">
+        
+                  <h5 class="fw-bold"><a href="#" class="link-light">ROG STRIX G35CA
+                      G35CA-1390KF156W</a></h5>
+                  <p class="fw-bold">NT$139,990</p>
+        
+                  <div class="row">
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/heart.svg"></a>
+                    </div>
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" a href="#"><img src="./img/cart.svg" onclick="addToCart('1', 'ROG STRIX G35CA G35CA-1390KF156W','139990')"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 text-white rounded">
+                  <img src="./img/ASUS4090_1.png" class="d-block img-fluid mx-auto mt-3" width="150" height="150">
+        
+                  <h5 class="fw-bold"><a href="#" class="link-light">ROG G22CH
+                      <br>
+                      G22CH-1390KF039W</a></h5>
+                  <p class="fw-bold">NT$72,990</p>
+        
+                  <div class="row">
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/heart.svg"></a>
+                    </div>
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#" ><img src="./img/cart.svg" onclick="addToCart('2', 'ROG G22CH G22CH-1390KF039W','72990')"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 text-white rounded">
+                  <img src="./img/ASUSINTEL7_1.png" class="d-block img-fluid mx-auto mt-3" width="150" height="150">
+        
+                  <h5 class="fw-bold"><a href="#" class="link-light">ROG Strix G16CH G16CH-1370KF067W
+                    </a></h5>
+                  <p class="fw-bold">NT$66,990</p>
+        
+                  <div class="row">
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/heart.svg"></a>
+                    </div>
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/cart.svg" onclick="addToCart('3', 'ROG Strix G16CH G16CH-1370KF067W','66900')"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 text-white rounded">
+                  <img src="./img/ASUSINTEL5_2.png" class="d-block img-fluid mx-auto mt-3" width="150" height="150">
+        
+                  <h5 class="fw-bold"><a href="#" class="link-light">ROG Strix G10CE G10CE-51140F121T</a></h5>
+                  <p class="fw-bold">NT$33,990</p>
+        
+                  <div class="row">
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/heart.svg"></a>
+                    </div>
+                    <div class="d-grid gap-2 col-md-6 align-middle">
+                      <a class="text-center p-2 rounded" href="#"><img src="./img/cart.svg" onclick="addToCart('4', 'ROG Strix G10CE G10CE-51140F121T','33990')"></a>
+                    </div>
+                  </div>
+                </div>
+        
+        
+        
+        
+              </div>
+        
+
+            <!-- Second -->
+
+
+            <!-- Third -->
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+        <a href="#"><button class="d-flex float-end me-4 bg-warning rounded">TOP</button></a>
+        <footer class="container text-white mt-5">
+            <p>&copy; 2023–2023 Company, Inc. &middot; <a href="#">隱私</a> &middot; <a href="#">條款</a></p>
+        </footer>
+    </main>
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

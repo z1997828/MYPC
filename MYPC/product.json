@@ -1,0 +1,170 @@
+{
+    "computerCPU": [
+        {
+            "id": "cpu1",
+            "name": "INTEL i9-13900/24核32緒/2.0G/1700",
+            "price": "18700"
+        },
+        {
+            "id": "cpu2",
+            "name": "INTEL i7-13700/16核24緒/2.1G/1700",
+            "price": "12700"
+        },
+        {
+            "id": "cpu3",
+            "name": "INTEL i5-14600KF/14核20緒3.5G/無風扇1700",
+            "price": "9888"
+        },
+        {
+            "id": "cpu4",
+            "name": "INTEL i5-14600KF/14核20緒3.5G/無風扇1700",
+            "price": "9888"
+        },
+        {
+            "id": "cpu5",
+            "name": "INTEL i5-13500/2.5G/14核20緒/1700",
+            "price": "7900"
+        },
+        {
+            "id": "cpu5",
+            "name": "INTEL i5-13500/2.5G/14核20緒/1700",
+            "price": "7900"
+        }
+    ],
+    "computerMB": [
+        {
+            "id": "mb1",
+            "name": "ASUS ROG STRIX Z790-A GAMING WIFI D4 主機板",
+            "price": "8990"
+        },
+        {
+            "id": "mb2",
+            "name": "ASUS ROG STRIX Z790-H GAMING WIFI 主機板",
+            "price": "9590"
+        },
+        {
+            "id": "mb3",
+            "name": "ASUS STRIX B760-G GAMING WIFI 主機板",
+            "price": "9888"
+        },
+        {
+            "id": "mb4",
+            "name": "ASUS PRIME B650M-A II-CSM 主機板",
+            "price": "4490"
+        },
+        {
+            "id": "mb5",
+            "name": "ASUS TUF GAMING B760-PLUS WIFI D4 主機板",
+            "price": "6090"
+        }
+    ],
+    "computerRAM": [
+        {
+            "id": "ram1",
+            "name": "GIGASTONE 立達 Game Pro DDR4 3200 32GB(16Gx2) RGB電競超頻 桌上型記憶體-黑",
+            "price": "2599"
+        },
+        {
+            "id": "ram2",
+            "name": "金士頓 FURY Beast 獸獵者 DDR4 3200 32GB(16GBx2) 桌上型超頻記憶體",
+            "price": "2200"
+        },
+        {
+            "id": "ram3",
+            "name": "TEAM 十銓 T-FORCE DELTA RGB 炫光 DDR5 6200 32GB(16Gx2) CL38 白色 ",
+            "price": "3299"
+        },
+        {
+            "id": "ram4",
+            "name": "Micron Crucial PRO 美光 DDR5 5600 32GB(16GBx2) 桌上型超頻記憶體",
+            "price": "2999"
+        },
+        {
+            "id": "ram5",
+            "name": "Corsair 海盜船 VENGEANCE RGB DDR5 5600 32GB(16Gx2) 桌上型記憶體-黑色",
+            "price": "3699"
+        }
+    ],
+    "computerSSD": [
+        {
+            "id": "ssd1",
+            "name": "金士頓 Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD (SKC3000S/1024G)",
+            "price": "2036"
+        },
+        {
+            "id": "ssd2",
+            "name": "WD 藍標 SA510 1TB 2.5吋SATA SSD",
+            "price": "2050"
+        },
+        {
+            "id": "ssd3",
+            "name": "ADATA威剛 LEGEND 850 1TB PCIe 4.0 M.2 2280 SSD固態硬碟",
+            "price": "1588"
+        },
+        {
+            "id": "ssd4",
+            "name": "Micron Crucial PRO 美光 DDR5 5600 32GB(16GBx2) 桌上型超頻記憶體(CP2K16G56C46U5)",
+            "price": "2999"
+        },
+        {
+            "id": "ssd5",
+            "name": "TEAM 十銓 CX2 2TB 2.5吋 SATAIII SSD 固態硬碟",
+            "price": "2388"
+        }
+    ],
+        "computerGPU": [
+            {
+                "id": "gpu1",
+                "name": "MSI 微星 GeForce RTX 4090 GAMING SLIM 24G 顯示卡",
+                "price": "56990"
+            },
+            {
+                "id": "gpu2",
+                "name": "ASUS TUF Gaming GeForce RTX4080 O16G顯示卡",
+                "price": "38888"
+            },
+            {
+                "id": "gpu3",
+                "name": "ASUS TUF Gaming GeForce RTX 4070 12GB 顯示卡",
+                "price": "20990"
+            },
+            {
+                "id": "gpu4",
+                "name": "ASUS Dual GeForce RTX 4060 OC Edition 8GB GDDR6 顯示卡",
+                "price": "9990"
+            },
+            {
+                "id": "gpu5",
+                "name": "技嘉 GeForce RTX 4070 Ti WINDFORCE OC 12G 顯示卡",
+                "price": "27990"
+            }
+        ],
+        "computerPSU": [
+            {
+                "id": "psu1",
+                "name": "ASUS 華碩ROG-STRIX-1200G-AURA-GAMING金牌-10Y",
+                "price": "7990"
+            },
+            {
+                "id": "psu2",
+                "name": "海韻 Focus GX-1000 1000W金牌全模組電源供應器(10年保)",
+                "price": "5090"
+            },
+            {
+                "id": "psu3",
+                "name": "ASUS TUF-GAMING-850G 80+/金牌電源/10Y(ATX3.0)",
+                "price": "4590"
+            },
+            {
+                "id": "psu4",
+                "name": "Link All PX550/80+銅牌電源供應器",
+                "price": "1399"
+            },
+            {
+                "id": "psu5",
+                "name": "海韻 Focus GX-850全模組金牌80+電源10Y/黑",
+                "price": "3890"
+            }
+        ]
+
+    }

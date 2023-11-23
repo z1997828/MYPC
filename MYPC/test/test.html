@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡易購物車</title>
+  <link rel="stylesheet" href="test.css">
+  <script src="test.json" defer></script>
+  <script src="test.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>線上商店</h1>
+    <div id="cart-icon" onclick="showCart()">🛒</div>
+  </header>
+  <div id="product-list"></div>
+  <div id="cart-overlay" onclick="hideCart()">
+    <div id="cart-content">
+      <h2>購物車</h2>
+      <ul id="cart"></ul>
+      <p id="total">總計: $0</p>
+      <button onclick="checkout()">結帳</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+    "products":[
+    {
+        "id": "1",
+        "name": "ROG STRIX G35CA G35CA-1390KF156W",
+        "price": "139990"
+    },
+    {
+        "id": "2",
+        "name": "ROG G22CH G22CH-1390KF039W",
+        "price": "72990"
+    },
+    {
+        "id": "3",
+        "name": "ROG Strix G16CH G16CH-1370KF067W",
+        "price": "66990"
+    },
+    {
+        "id": "4",
+        "name": "ROG Strix G10CE G10CE-51140F121T",
+        "price": "33990"
+    },
+    {
+        "id": "5",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "6",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "7",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "8",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "9",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "10",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "11",
+        "name": "",
+        "price": ""
+    },
+    {
+        "id": "12",
+        "name": "",
+        "price": ""
+    }
+]
+}
